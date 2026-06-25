@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/goit-react-hw-01-components/static/js/main.d4862f07.js",
+    "static/js/453.eb977ecb.chunk.js": "/goit-react-hw-01-components/static/js/453.eb977ecb.chunk.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.d4862f07.js.map": "/goit-react-hw-01-components/static/js/main.d4862f07.js.map",
+    "453.eb977ecb.chunk.js.map": "/goit-react-hw-01-components/static/js/453.eb977ecb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d4862f07.js"
+  ]
+}
