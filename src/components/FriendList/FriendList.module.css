@@ -1,0 +1,26 @@
+.item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 1px solid #d5d5d580;
+    box-shadow: 2px 2px 4px rgba(124, 124, 124, 0.322);
+    margin-bottom: 12px;
+}
+.avatar{
+    margin: 5px 10px 5px 5px;
+    border-radius: 4px;
+    background-color: #c5ebd0;
+}
+.status{
+    margin: 0px 5px 0px 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(178, 178, 178);
+}
+.status.online{
+    background-color: #55ac57;
+}
+.status.offline{
+    background-color: #f95650;
+}

@@ -1,4 +1,4 @@
-
+import './App.css';
 import Profile from "./components/SocialProfile/Profile";
 import user from "./data/user.json"
 import Statistics from "./components/Statistics/Statistics";
@@ -10,7 +10,7 @@ import transactions from "./data/transactions.json"
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Profile
         username={user.username}
         tag={user.tag}

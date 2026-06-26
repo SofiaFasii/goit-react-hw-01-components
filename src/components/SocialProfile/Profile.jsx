@@ -1,13 +1,15 @@
+import css from "./Profile.module.css"
 import PropTypes from "prop-types";
 
 export default function Profile({username, tag, location, avatar, stats}) {
   return (
-    <section className="profile">
+    <section className={css.profile}>
       <div className="description">
         <img
           src={avatar}
           alt="User avatar"
           className="avatar"
+          width="48"
         />
         <p className="name">{username}</p>
         <p className="tag">@{tag}</p>
